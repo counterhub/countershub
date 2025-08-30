@@ -1,0 +1,37 @@
+[
+  {
+    "target": "Lord Vader (Maul, Royal Guard, Darth Vader, Thrawn)",
+    "counter": ["Rey (JKL, GAS, Ben Solo)"],
+    "difficulty": "Hard",
+    "notes": "High relics required. JKL’s stun helps manage Maul. GAS needed for durability.",
+    "proof": "https://youtu.be/example1"
+  },
+  {
+    "target": "Jedi Master Kenobi (CAT, General Kenobi, Ahsoka, Padmé, Barriss)",
+    "counter": ["Sith Eternal Emperor + Wat Tambor"],
+    "difficulty": "Medium",
+    "notes": "Keep SEE alive until ultimate. Wat’s tech is critical. Works best if JMK doesn’t have CAT.",
+    "proof": "https://youtu.be/example2"
+  },
+  {
+    "target": "Jedi Master Luke (JKR, JKL, Hoda, Shaak Ti)",
+    "counter": ["Sith Eternal Emperor + Armor"],
+    "difficulty": "Medium",
+    "notes": "SEE must reach ultimate to win. Use Armor’s Beskar buff to survive JML’s opening.",
+    "proof": "https://youtu.be/example3"
+  },
+  {
+    "target": "Supreme Leader Kylo Ren (Hux, SiT, Malak, Daka)",
+    "counter": ["Jedi Master Luke (JKR, JKL, GAS, Hoda)"],
+    "difficulty": "Medium",
+    "notes": "Control with JKL stuns. GAS and JKR add durability. Beware of Kylo ultimate timing.",
+    "proof": "https://youtu.be/example4"
+  },
+  {
+    "target": "Rey (Ben Solo, JKR, JKL, GAS)",
+    "counter": ["Jabba the Hutt (Krrsantan, Boushh, Skiff Lando, Embo)"],
+    "difficulty": "Medium",
+    "notes": "Jabba with Boushh burns through Rey comps. Watch for Ben Solo’s mechanics.",
+    "proof": "https://youtu.be/example5"
+  }
+]
