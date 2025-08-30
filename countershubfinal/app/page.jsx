@@ -1,1 +1,0 @@
-export default function Page(){return <main><h1>Countershub</h1><p>Choose a mode.</p></main>}
