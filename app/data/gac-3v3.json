@@ -1,0 +1,34 @@
+:root {
+  --background: #ffffff;
+  --foreground: #000000;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: var(--background);
+  color: var(--foreground);
+}
+[
+  {
+    "target": "Jedi Master Kenobi (CAT, General Kenobi, Ahsoka)",
+    "counter": ["Sith Eternal Emperor + Wat Tambor"],
+    "difficulty": "Medium",
+    "notes": "Keep SEE alive until ultimate. Wat Tambor’s tech helps ensure survivability.",
+    "proof": "https://youtu.be/example1"
+  },
+  {
+    "target": "Darth Revan (Bastila Shan Fallen, Malak)",
+    "counter": ["Jedi Knight Luke + General Skywalker"],
+    "difficulty": "Hard",
+    "notes": "Requires high relics. Jedi Knight Luke’s stun is key to stopping Malak.",
+    "proof": "https://youtu.be/example2"
+  },
+  {
+    "target": "General Grievous (B2, B1, Magna, Droideka)",
+    "counter": ["CLS (Chewbacca, Han, C3PO, Cholo)"],
+    "difficulty": "Easy",
+    "notes": "Classic CLS counter. Prioritize B2 to avoid buff dispels.",
+    "proof": "https://youtu.be/example3"
+  }
+]
