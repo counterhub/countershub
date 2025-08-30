@@ -1,0 +1,1 @@
+export default function Legal(){return <main><h1>Legal Disclaimer</h1><p>Fan-made project. Not affiliated with EA/CG/Disney/Lucasfilm.</p></main>}
