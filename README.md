@@ -1,12 +1,17 @@
 # Countershub
 
-A Star Wars: Galaxy of Heroes counter tracking hub.
+A Star Wars: Galaxy of Heroes counter tracker
 
-- GAC / TW / Fleets
-- Omicron & Datacron filters
-- Difficulty ratings
-- Search
-- YouTube proof integration
-- Mobile-first sci-fi UI
+## Features
+- GAC / TW / Fleets  
+- Omicron & Datacron filters  
+- Difficulty ratings  
+- Search  
+- YouTube proof integration  
+- Mobile-first sci-fi UI  
 
-See `.env.local.example` for API setup.
+## Getting Started
+
+1. **Install dependencies**  
+   ```bash
+   npm install
