@@ -1,7 +1,7 @@
 "use client";
 import { useState } from "react";
-import gac3v3 from "../../data/gac-3v3.json";
-import gac5v5 from "../../data/gac-5v5.json";
+import gac3v3 from "../data/gac-3v3.json";
+import gac5v5 from "../data/gac-5v5.json";
 
 export default function GACPage() {
   const [mode, setMode] = useState("3v3");

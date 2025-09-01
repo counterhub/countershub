@@ -1,7 +1,7 @@
 "use client";
 
 import ModeView from "../../components/ModeView";
-import data from "../../data/fleets.json";
+import data from "../data/fleets.json";
 
 export default function FleetsPage() {
   return (
