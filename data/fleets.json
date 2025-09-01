@@ -1,1 +1,50 @@
-[]
+[
+  {
+    "target": "Executor (Piett, Razor Crest, TIE Interceptor, IG-2000, Slave I)",
+    "counter": ["Profundity (Raddus, Outrider, Rebel Y-Wing, Biggs, Cassian)"],
+    "difficulty": "Hard",
+    "notes": "Profundity must go first. Control Razor Crest and keep Y-Wing alive.",
+    "proof": "https://youtu.be/example-fleet1",
+    "image": "https://swgoh.gg/static/img/assets/ships/executor.webp"
+  },
+  {
+    "target": "Profundity (Raddus, Outrider, Rebel Y-Wing, Biggs, Cassian)",
+    "counter": ["Executor (Piett, Razor Crest, Hound’s Tooth, Slave I, IG-2000)"],
+    "difficulty": "Medium",
+    "notes": "Open strong with Razor Crest. Focus Outrider, then Y-Wing.",
+    "proof": "https://youtu.be/example-fleet2",
+    "image": "https://swgoh.gg/static/img/assets/ships/profundity.webp"
+  },
+  {
+    "target": "Negotiator (Anakin, Ahsoka, Y-Wing, Plo Koon, Fives)",
+    "counter": ["Malevolence (Grievous, Hyena, Vulture Droid, Sun Fac, Spy)"],
+    "difficulty": "Easy",
+    "notes": "Vultures feed turn meter. Focus Anakin first.",
+    "proof": "https://youtu.be/example-fleet3",
+    "image": "https://swgoh.gg/static/img/assets/ships/negotiator.webp"
+  },
+  {
+    "target": "Malevolence (Grievous, Hyena, Vulture Droid, Sun Fac, Spy)",
+    "counter": ["Negotiator (Anakin, Ahsoka, Y-Wing, Plo Koon, Fives)"],
+    "difficulty": "Medium",
+    "notes": "Keep Anakin alive. Focus Hyena bomber to stop taunt loops.",
+    "proof": "https://youtu.be/example-fleet4",
+    "image": "https://swgoh.gg/static/img/assets/ships/malevolence.webp"
+  },
+  {
+    "target": "Finalizer (Kylo, Silencer, SF TIE, Shuttle, FO TIE)",
+    "counter": ["Executor (Piett, Razor Crest, Hound’s Tooth, IG-2000, Slave I)"],
+    "difficulty": "Hard",
+    "notes": "Relies on speed and early control. Risky but possible.",
+    "proof": "https://youtu.be/example-fleet5",
+    "image": "https://swgoh.gg/static/img/assets/ships/finalizer.webp"
+  },
+  {
+    "target": "Raddus (Resistance ships, Falcon, Y-Wing)",
+    "counter": ["Finalizer (Kylo, Silencer, Shuttle, SF TIE, FO TIE)"],
+    "difficulty": "Medium",
+    "notes": "Control Falcon early with stun. Use Kylo’s Silencer for burst.",
+    "proof": "https://youtu.be/example-fleet6",
+    "image": "https://swgoh.gg/static/img/assets/ships/raddus.webp"
+  }
+]
