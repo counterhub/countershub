@@ -1,6 +1,6 @@
 'use client';
 import React from "react";
-import data from "../data/tw.json";
+import data from "@/data/tw.json";
 
 export default function TWPage() {
   return (

@@ -12,3 +12,11 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./*"]
+    }
+  }
+}
