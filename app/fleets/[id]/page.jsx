@@ -1,4 +1,4 @@
-import fleets from "../@/data/fleets.json";
+import fleets from "@/data/fleets.json";
 import Image from "next/image";
 import { notFound } from "next/navigation";
 
