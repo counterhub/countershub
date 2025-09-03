@@ -1,38 +1,39 @@
-"use client";
-import data from "../data/fleets.json";
+import fleets from "../../data/fleets.json";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function FleetsPage() {
   return (
-    <main style={{ padding: "20px" }}>
-      <h1 className="text-2xl font-bold mb-4">FLEETS Counters</h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
-        {data.map((entry, index) => (
-          <div
-            key={index}
-            className="card p-4 border rounded-lg shadow bg-white"
-          >
-            <img
-              src={entry.image}
-              alt={entry.target}
-              className="w-full h-40 object-contain rounded-md mb-2"
-            />
-            <h3 className="text-lg font-bold text-center mb-2">
-              {entry.target}
-            </h3>
-            <p><strong>Counter:</strong> {entry.counter.join(", ")}</p>
-            <p><strong>Difficulty:</strong> {entry.difficulty}</p>
-            <p><strong>Notes:</strong> {entry.notes}</p>
-            <a
-              href={entry.proof}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-600 underline block mt-2 text-center"
+    <div style={{ padding: "20px" }}>
+      <h1>Fleet Counters</h1>
+      <div
+        style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(4, 1fr)",
+          gap: "20px",
+        }}
+      >
+        {fleets.map((fleet, idx) => (
+          <Link key={idx} href={`/fleets/${fleet.id}`}>
+            <div
+              style={{
+                textAlign: "center",
+                padding: "10px",
+                background: "#222",
+                borderRadius: "8px",
+              }}
             >
-              Watch Proof
-            </a>
-          </div>
+              <Image
+                src={fleet.target.image}
+                alt={fleet.target.name}
+                width={150}
+                height={150}
+              />
+              <h3>{fleet.target.name}</h3>
+            </div>
+          </Link>
         ))}
       </div>
-    </main>
+    </div>
   );
 }

@@ -1,1 +1,58 @@
-[]
+[
+  {
+    "target": "Jabba the Hutt (Krrsantan, Boushh Leia, Skiff Lando, Embo)",
+    "counter": ["Jedi Master Kenobi (CAT, GK, Ahsoka, Padmé)"],
+    "difficulty": "Hard",
+    "notes": "Dispel Krrsantan’s taunt, control Leia, and save CAT leap for Boushh.",
+    "proof": "https://youtu.be/example-tw1"
+  },
+  {
+    "target": "Lord Vader (Maul, Royal Guard, Darth Vader, Thrawn)",
+    "counter": ["Jedi Master Kenobi (CAT, GK, Ahsoka, Shaak Ti)"],
+    "difficulty": "Hard",
+    "notes": "Watch Maul stacks, ultimate timing is critical. High relics required.",
+    "proof": "https://youtu.be/example-tw2"
+  },
+  {
+    "target": "Rey (Ben Solo, Jedi Training Rey, R2-D2, Resistance Bros)",
+    "counter": ["Sith Eternal Emperor + Wat Tambor"],
+    "difficulty": "Medium",
+    "notes": "Survive opening whirlwind, tech SEE with Wat to prevent ability block.",
+    "proof": "https://youtu.be/example-tw3"
+  },
+  {
+    "target": "Starkiller (Visas Marr, Mara Jade, Emperor Palpatine)",
+    "counter": ["SLKR (KRU, FO Hux, Sith Trooper)"],
+    "difficulty": "Medium",
+    "notes": "Focus Mara Jade, use Hux for turn meter control.",
+    "proof": "https://youtu.be/example-tw4"
+  },
+  {
+    "target": "General Grievous (B2, B1, Magna, Droideka)",
+    "counter": ["CLS (Chewbacca, Han, C-3PO, Cholo)"],
+    "difficulty": "Easy",
+    "notes": "Classic CLS counter. Focus B2 first to stop buff dispels.",
+    "proof": "https://youtu.be/example-tw5"
+  },
+  {
+    "target": "Gas (501st)",
+    "counter": ["Jedi Knight Revan (Bastila, Jolee, GMY, Hoda)"],
+    "difficulty": "Medium",
+    "notes": "Mark Fives, use Savior timing to outlast.",
+    "proof": "https://youtu.be/example-tw6"
+  },
+  {
+    "target": "Treya (Nihilus, Sion, Talon)",
+    "counter": ["Imperial Troopers (Veers, Piett, Starck, Dark Trooper)"],
+    "difficulty": "Easy",
+    "notes": "Troopers punch fast and hard. Kill Talon to prevent revives.",
+    "proof": "https://youtu.be/example-tw7"
+  },
+  {
+    "target": "Qui-Gon Jinn (JKA, GK, Ahsoka, Mace)",
+    "counter": ["Darth Vader (Merciless Massacre solo)"],
+    "difficulty": "Easy",
+    "notes": "Merciless into culling blade on JKA, then clean up.",
+    "proof": "https://youtu.be/example-tw8"
+  }
+]
