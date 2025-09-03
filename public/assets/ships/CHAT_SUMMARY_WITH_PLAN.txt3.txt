@@ -1,0 +1,80 @@
+
+# CountersHub Project - Chat Summary & Action Plan
+
+## Project Vision
+CountersHub is a Star Wars: Galaxy of Heroes (SWGOH) counters website designed to improve upon swgoh.gg by being:
+- Cleaner, faster, and easier to use.
+- Automated to scrape counters from trusted sources (swgoh.gg, Reddit, YouTube).
+- Scored with a 1–10 confidence rating (red → green) instead of swgoh.gg percentages.
+- Capable of storing and linking proof videos (with player submissions manually verified).
+- Designed to eventually self-generate reliable counters with collected data.
+
+The long-term goal: **A one-stop counter hub for fleets, GAC, TW, and more.**
+
+---
+
+## Current Progress
+- ✅ Repo is live on GitHub and connected to Vercel.
+- ✅ Ship assets uploaded to `public/assets/ships/`.
+- ✅ JSON data structured for fleets, gac-3v3, gac-5v5, tw.
+- ✅ JSX pages rendering data from JSON (fleets, gac, tw).  
+- ✅ Local dev environment works (pages rendering properly).
+
+- ⚠ Build fails on Vercel due to **bad relative import paths** (e.g., `../../../data/tw.json`).
+- ⚠ Imports need cleanup with a `jsconfig.json` baseUrl and `paths` to simplify JSON imports (`@/data/tw.json` instead of `../../../data/tw.json`).
+- ⚠ TW page currently imports JSON correctly but fails to resolve path in production.
+- ⚠ Need cleanup of unnecessary files (e.g., `tree.txt`) and consistency in Git pushes.
+
+---
+
+## Immediate Next Steps (Action Plan)
+
+### 1. Fix Import Paths
+- Create `jsconfig.json` in project root with:
+```json
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["*"]
+    }
+  }
+}
+```
+- Update imports across JSX files:  
+  Example:  
+  ```js
+  import tw from "@/data/tw.json";
+  import fleets from "@/data/fleets.json";
+  import gac3v3 from "@/data/gac-3v3.json";
+  import gac5v5 from "@/data/gac-5v5.json";
+  ```
+
+### 2. Commit & Push
+```bash
+git add .
+git commit -m "Refactor imports to use jsconfig.json paths"
+git push
+```
+
+### 3. Redeploy on Vercel
+- Trigger a new deployment to confirm `module not found` errors are resolved.
+
+### 4. Clean & Verify Repo
+- Ensure `.gitignore` properly excludes local-only files (e.g., logs, temp text files).
+- Keep repo clean for smooth Vercel deployments.
+
+---
+
+## Medium-Term Tasks
+- Add admin dashboard for verifying and approving proof videos.
+- Add scraping automation (swgoh.gg, Reddit, YouTube) → will need Node.js backend or external service.
+- Add counter confidence rating logic (1–10 with color scale).
+- Improve styling and layout (polish to look better than swgoh.gg).
+
+---
+
+## Long-Term Goals
+- Fully automated counter discovery system.
+- Expand beyond fleets → TW, GAC, Omicrons, Datacrons.
+- Build a player community around verified counter submissions.
