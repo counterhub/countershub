@@ -1,102 +1,55 @@
-import fleets from "@/data/fleets.json";
-import Image from "next/image";
-import { notFound } from "next/navigation";
+import fleets from "../../../data/fleets.json";
+import "./counters.css";
 
-export default function FleetDetail({ params }) {
-  // Find the fleet by ID from the URL
-  const fleet = fleets.find(
-    (f) => f.id.toLowerCase() === params.id.toLowerCase()
-  );
+export default function FleetCounterPage({ params }) {
+  const fleet = fleets.find(f => f.id === params.id);
 
-  if (!fleet) return notFound();
+  if (!fleet) return <h1>Fleet not found</h1>;
 
   return (
-    <div style={{ padding: "20px" }}>
-      <h1>{fleet.target.name} Counters</h1>
+    <div className="counter-page">
+      <h1>{fleet.name} Counters</h1>
+      <div className="counter-grid">
+        {/* Capital ship */}
+        <div className="capital">
+          <img src={`/assets/ships/${fleet.image}`} alt={fleet.name} title={fleet.name} />
+          <p>{fleet.name}</p>
+        </div>
 
-      {/* Enemy Fleet (the fleet itself) */}
-      <section>
-        <h2>Enemy Fleet: {fleet.target.name}</h2>
-        <Image
-          src={fleet.target.image}
-          alt={fleet.target.name}
-          width={120}
-          height={120}
-        />
-        <div style={{ display: "flex", gap: "10px", marginTop: "10px" }}>
+        {/* Fleet ships */}
+        <div className="ships">
           {fleet.ships.map((ship, idx) => (
-            <div key={idx} style={{ textAlign: "center" }}>
-              <Image
-                src={ship.image}
-                alt={ship.name}
-                width={80}
-                height={80}
-              />
-              <p>{ship.name}</p>
-            </div>
+            <img
+              key={idx}
+              src={`/assets/ships/${ship}`}
+              alt={ship.replace(".webp", "")}
+              title={ship.replace(".webp", "")}
+            />
           ))}
         </div>
-      </section>
 
-      {/* Counter Fleets */}
-      {fleet.counters.map((counter, cidx) => (
-        <div
-          key={cidx}
-          style={{
-            display: "flex",
-            justifyContent: "space-between",
-            alignItems: "center",
-            marginBottom: "20px",
-            background: "#111",
-            padding: "10px",
-            borderRadius: "6px",
-          }}
-        >
-          {/* Counter Capital Ship (Left Side) */}
-          <div style={{ display: "flex", alignItems: "center", gap: "10px" }}>
-            <Image
-              src={counter.image}
-              alt={counter.name}
-              width={90}
-              height={90}
-              title={counter.name}
-            />
-            <div style={{ display: "flex", gap: "6px" }}>
-              {counter.fleet.map((ship, sidx) => (
-                <Image
-                  key={sidx}
-                  src={ship.image}
-                  alt={ship.name}
-                  width={60}
-                  height={60}
-                  title={ship.name}
-                />
-              ))}
-            </div>
-          </div>
-
-          {/* Enemy Fleet again (Right Side) */}
-          <div style={{ display: "flex", gap: "6px" }}>
-            <Image
-              src={fleet.target.image}
-              alt={fleet.target.name}
-              width={90}
-              height={90}
-              title={fleet.target.name}
-            />
-            {fleet.ships.map((ship, sidx) => (
-              <Image
-                key={sidx}
-                src={ship.image}
-                alt={ship.name}
-                width={60}
-                height={60}
-                title={ship.name}
-              />
-            ))}
-          </div>
+        {/* Counter side */}
+        <div className="capital">
+          <img src={`/assets/ships/${fleet.counter.image}`} alt={fleet.counter.name} title={fleet.counter.name} />
+          <p>{fleet.counter.name}</p>
         </div>
-      ))}
+
+        <div className="ships">
+          {fleet.counter.ships.map((ship, idx) => (
+            <img
+              key={idx}
+              src={`/assets/ships/${ship}`}
+              alt={ship.replace(".webp", "")}
+              title={ship.replace(".webp", "")}
+            />
+          ))}
+        </div>
+      </div>
+
+      <div className="confidence">
+        <p>Confidence: {fleet.counter.confidence}</p>
+        <a href={fleet.counter.video} target="_blank">Watch Counter Guide</a>
+      </div>
     </div>
   );
 }

@@ -1,0 +1,39 @@
+.counter-page {
+  text-align: center;
+  background: url('/assets/backgrounds/counter-bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.counter-grid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr 2fr;
+  gap: 20px;
+  align-items: start;
+}
+
+.capital img {
+  width: 120px;
+  border-radius: 10px;
+  border: 2px solid #fff;
+}
+
+.ships img {
+  width: 80px;
+  margin: 5px;
+  border-radius: 8px;
+  transition: transform 0.2s;
+}
+
+.ships img:hover {
+  transform: scale(1.1);
+  border: 2px solid gold;
+}
+
+.confidence {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: yellow;
+}

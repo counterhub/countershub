@@ -1,0 +1,33 @@
+.fleets-page {
+  text-align: center;
+  background: url("/assets/backgrounds/fleets-bg.webp") no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  color: white;
+}
+
+.fleets-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  justify-items: center;
+  margin: 40px;
+}
+
+.fleet-card {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 15px;
+  border-radius: 10px;
+  text-align: center;
+  width: 150px;
+  transition: transform 0.2s ease;
+}
+
+.fleet-card:hover {
+  transform: scale(1.05);
+}
+
+.fleet-card img {
+  width: 100px;
+  height: auto;
+}

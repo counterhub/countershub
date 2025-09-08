@@ -1,54 +1,332 @@
 [
   {
-    "id": "executor",
-    "target": {
-      "name": "Executor",
-      "image": "/assets/ships/executor.webp"
-    },
+    "id": "negotiator",
+    "name": "Negotiator",
+    "image": "negotiator.webp",
     "ships": [
-      { "name": "Razor Crest", "image": "/assets/ships/razorcrest.webp" },
-      { "name": "TIE Interceptor", "image": "/assets/ships/tie_interceptor_prototype.webp" },
-      { "name": "IG-2000", "image": "/assets/ships/ig2000.webp" },
-      { "name": "Slave I", "image": "/assets/ships/slave1.webp" }
+      "jedi_fighter_anakin.webp",
+      "jedi_fighter_ahsoka.webp",
+      "rexarc170_02.webp",
+      "jedi_fighter_bladeofdorin.webp",
+      "ywing_btlb.webp",
+      "consular_starfighter.webp",
+      "fives_arc170.webp"
     ],
-    "counters": [
-      {
-        "id": "profundity",
-        "name": "Profundity",
-        "image": "/assets/ships/profundity.webp",
-        "fleet": [
-          { "name": "Outrider", "image": "/assets/ships/outrider.webp" },
-          { "name": "Rebel Y-Wing", "image": "/assets/ships/ywing.webp" },
-          { "name": "Biggs X-Wing", "image": "/assets/ships/xwing_red3.webp" },
-          { "name": "Cassian's U-Wing", "image": "/assets/ships/cassians_uwing.webp" }
-        ]
-      }
-    ]
+    "counter": {
+      "id": "malevolence",
+      "name": "Malevolence",
+      "image": "malevolence.webp",
+      "ships": [
+        "vulture_droid.webp",
+        "hyena_bomber.webp",
+        "geonosis_fighter_soldier.webp",
+        "geonosis_fighter_spy.webp",
+        "geonosis_fighter_sunfac.webp",
+        "scimitar.webp",
+        "tiebomber.webp"
+      ],
+      "confidence": "9/10",
+      "video": "https://www.youtube.com/watch?v=example_neg_vs_male"
+    }
+  },
+  {
+    "id": "malevolence",
+    "name": "Malevolence",
+    "image": "malevolence.webp",
+    "ships": [
+      "vulture_droid.webp",
+      "hyena_bomber.webp",
+      "geonosis_fighter_soldier.webp",
+      "geonosis_fighter_spy.webp",
+      "geonosis_fighter_sunfac.webp",
+      "scimitar.webp",
+      "tiebomber.webp"
+    ],
+    "counter": {
+      "id": "negotiator",
+      "name": "Negotiator",
+      "image": "negotiator.webp",
+      "ships": [
+        "jedi_fighter_anakin.webp",
+        "jedi_fighter_ahsoka.webp",
+        "rexarc170_02.webp",
+        "jedi_fighter_bladeofdorin.webp",
+        "ywing_btlb.webp",
+        "consular_starfighter.webp",
+        "fives_arc170.webp"
+      ],
+      "confidence": "9/10",
+      "video": "https://www.youtube.com/watch?v=example_male_vs_neg"
+    }
+  },
+  {
+    "id": "chimera",
+    "name": "Chimaera",
+    "image": "chimaera.webp",
+    "ships": [
+      "imperialtiefighter.webp",
+      "tiebomber.webp",
+      "tiereaper.webp",
+      "gauntlet.webp",
+      "slave1.webp",
+      "phantom2.webp",
+      "ghost.webp"
+    ],
+    "counter": {
+      "id": "homeone",
+      "name": "Home One",
+      "image": "homeone.webp",
+      "ships": [
+        "ghost.webp",
+        "phantom2.webp",
+        "cassian_uwing.webp",
+        "uwing.webp",
+        "hanmfalcon.webp",
+        "outrider.webp",
+        "ravenclaw.webp"
+      ],
+      "confidence": "8/10",
+      "video": "https://www.youtube.com/watch?v=example_chim_vs_home"
+    }
+  },
+  {
+    "id": "executor",
+    "name": "Executor",
+    "image": "executor.webp",
+    "ships": [
+      "slave1.webp",
+      "tie_interceptor_prototype.webp",
+      "tie_silencer.webp",
+      "xanadublood.webp",
+      "gauntlet.webp",
+      "tiedefender.webp",
+      "tiedagger.webp"
+    ],
+    "counter": {
+      "id": "profundity",
+      "name": "Profundity",
+      "image": "profundity.webp",
+      "ships": [
+        "outrider.webp",
+        "ghost.webp",
+        "phantom2.webp",
+        "cassian_uwing.webp",
+        "uwing.webp",
+        "hanmfalcon.webp",
+        "ravenclaw.webp"
+      ],
+      "confidence": "7/10",
+      "video": "https://www.youtube.com/watch?v=example_exec_vs_prof"
+    }
   },
   {
     "id": "profundity",
-    "target": {
-      "name": "Profundity",
-      "image": "/assets/ships/profundity.webp"
-    },
+    "name": "Profundity",
+    "image": "profundity.webp",
     "ships": [
-      { "name": "Outrider", "image": "/assets/ships/outrider.webp" },
-      { "name": "Rebel Y-Wing", "image": "/assets/ships/ywing.webp" },
-      { "name": "Biggs X-Wing", "image": "/assets/ships/xwing_red3.webp" },
-      { "name": "Cassian's U-Wing", "image": "/assets/ships/cassians_uwing.webp" }
+      "outrider.webp",
+      "ghost.webp",
+      "phantom2.webp",
+      "cassian_uwing.webp",
+      "uwing.webp",
+      "hanmfalcon.webp",
+      "ravenclaw.webp"
     ],
-    "counters": [
-      {
-        "id": "executor",
-        "name": "Executor",
-        "image": "/assets/ships/executor.webp",
-        "fleet": [
-          { "name": "Razor Crest", "image": "/assets/ships/razorcrest.webp" },
-          { "name": "TIE Interceptor", "image": "/assets/ships/tie_interceptor_prototype.webp" },
-          { "name": "IG-2000", "image": "/assets/ships/ig2000.webp" },
-          { "name": "Slave I", "image": "/assets/ships/slave1.webp" }
-        ]
-      }
-    ]
+    "counter": {
+      "id": "executor",
+      "name": "Executor",
+      "image": "executor.webp",
+      "ships": [
+        "slave1.webp",
+        "tie_interceptor_prototype.webp",
+        "tie_silencer.webp",
+        "xanadublood.webp",
+        "gauntlet.webp",
+        "tiedefender.webp",
+        "tiedagger.webp"
+      ],
+      "confidence": "7/10",
+      "video": "https://www.youtube.com/watch?v=example_prof_vs_exec"
+    }
+  },
+  {
+    "id": "leviathan",
+    "name": "Leviathan",
+    "image": "leviathan.webp",
+    "ships": [
+      "sithfighter.webp",
+      "sithbomber.webp",
+      "sithinterceptor.webp",
+      "scimitar.webp",
+      "tieadvanced.webp",
+      "tiebomber.webp",
+      "tiereaper.webp"
+    ],
+    "counter": {
+      "id": "executor",
+      "name": "Executor",
+      "image": "executor.webp",
+      "ships": [
+        "slave1.webp",
+        "tie_interceptor_prototype.webp",
+        "tie_silencer.webp",
+        "xanadublood.webp",
+        "gauntlet.webp",
+        "tiedefender.webp",
+        "tiedagger.webp"
+      ],
+      "confidence": "6/10",
+      "video": "https://www.youtube.com/watch?v=example_levi_vs_exec"
+    }
+  },
+  {
+    "id": "endurance",
+    "name": "Endurance",
+    "image": "venator.webp",
+    "ships": [
+      "jedi_fighter_anakin.webp",
+      "rexarc170_02.webp",
+      "jedi_fighter_bladeofdorin.webp",
+      "consular_starfighter.webp",
+      "ywing_btlb.webp",
+      "ahsoka_jedi_fighter.webp",
+      "fives_arc170.webp"
+    ],
+    "counter": {
+      "id": "chimera",
+      "name": "Chimaera",
+      "image": "chimaera.webp",
+      "ships": [
+        "imperialtiefighter.webp",
+        "tiebomber.webp",
+        "tiereaper.webp",
+        "gauntlet.webp",
+        "slave1.webp",
+        "phantom2.webp",
+        "ghost.webp"
+      ],
+      "confidence": "6/10",
+      "video": "https://www.youtube.com/watch?v=example_endur_vs_chim"
+    }
+  },
+  {
+    "id": "homeone",
+    "name": "Home One",
+    "image": "homeone.webp",
+    "ships": [
+      "ghost.webp",
+      "phantom2.webp",
+      "cassian_uwing.webp",
+      "uwing.webp",
+      "hanmfalcon.webp",
+      "outrider.webp",
+      "ravenclaw.webp"
+    ],
+    "counter": {
+      "id": "executor",
+      "name": "Executor",
+      "image": "executor.webp",
+      "ships": [
+        "slave1.webp",
+        "tie_interceptor_prototype.webp",
+        "tie_silencer.webp",
+        "xanadublood.webp",
+        "gauntlet.webp",
+        "tiedefender.webp",
+        "tiedagger.webp"
+      ],
+      "confidence": "5/10",
+      "video": "https://www.youtube.com/watch?v=example_home_vs_exec"
+    }
+  },
+  {
+    "id": "finalizer",
+    "name": "Finalizer",
+    "image": "finalizer.webp",
+    "ships": [
+      "firstorder_sftie.webp",
+      "firstorder_tiefighter.webp",
+      "tiesilencer.webp",
+      "tiebomber.webp",
+      "tiereaper.webp",
+      "slave1.webp",
+      "gauntlet.webp"
+    ],
+    "counter": {
+      "id": "raddus",
+      "name": "Raddus",
+      "image": "raddus.webp",
+      "ships": [
+        "outrider.webp",
+        "uwing.webp",
+        "phantom2.webp",
+        "ghost.webp",
+        "cassian_uwing.webp",
+        "hanmfalcon.webp",
+        "ravenclaw.webp"
+      ],
+      "confidence": "5/10",
+      "video": "https://www.youtube.com/watch?v=example_final_vs_raddus"
+    }
+  },
+  {
+    "id": "raddus",
+    "name": "Raddus",
+    "image": "raddus.webp",
+    "ships": [
+      "outrider.webp",
+      "uwing.webp",
+      "phantom2.webp",
+      "ghost.webp",
+      "cassian_uwing.webp",
+      "hanmfalcon.webp",
+      "ravenclaw.webp"
+    ],
+    "counter": {
+      "id": "finalizer",
+      "name": "Finalizer",
+      "image": "finalizer.webp",
+      "ships": [
+        "firstorder_sftie.webp",
+        "firstorder_tiefighter.webp",
+        "tiesilencer.webp",
+        "tiebomber.webp",
+        "tiereaper.webp",
+        "slave1.webp",
+        "gauntlet.webp"
+      ],
+      "confidence": "5/10",
+      "video": "https://www.youtube.com/watch?v=example_raddus_vs_final"
+    }
+  },
+  {
+    "id": "executrix",
+    "name": "Executrix",
+    "image": "stardestroyer.webp",
+    "ships": [
+      "imperialtiefighter.webp",
+      "tiebomber.webp",
+      "tiereaper.webp",
+      "gauntlet.webp",
+      "slave1.webp",
+      "phantom2.webp",
+      "ghost.webp"
+    ],
+    "counter": {
+      "id": "endurance",
+      "name": "Endurance",
+      "image": "venator.webp",
+      "ships": [
+        "jedi_fighter_anakin.webp",
+        "rexarc170_02.webp",
+        "jedi_fighter_bladeofdorin.webp",
+        "consular_starfighter.webp",
+        "ywing_btlb.webp",
+        "ahsoka_jedi_fighter.webp",
+        "fives_arc170.webp"
+      ],
+      "confidence": "4/10",
+      "video": "https://www.youtube.com/watch?v=example_execu_vs_endur"
+    }
   }
 ]
