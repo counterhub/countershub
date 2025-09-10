@@ -1,39 +1,168 @@
 .counter-page {
   text-align: center;
-  background: url('/assets/backgrounds/counter-bg.jpg') no-repeat center center fixed;
+  background: url("/assets/backgrounds/counters-bg.jpeg") no-repeat center center fixed;
   background-size: cover;
   min-height: 100vh;
+  color: white;
   padding: 20px;
 }
 
-.counter-grid {
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr 2fr;
-  gap: 20px;
-  align-items: start;
+/* nav */
+.nav-buttons {
+  display: flex;
+  gap: 10px;
+  padding: 10px;
 }
 
-.capital img {
-  width: 120px;
-  border-radius: 10px;
-  border: 2px solid #fff;
-}
-
-.ships img {
-  width: 80px;
-  margin: 5px;
-  border-radius: 8px;
+.nav-btn {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  padding: 6px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 0.9rem;
   transition: transform 0.2s;
 }
 
-.ships img:hover {
-  transform: scale(1.1);
-  border: 2px solid gold;
+.nav-btn:hover {
+  transform: scale(1.05);
 }
 
-.confidence {
-  margin-top: 20px;
-  font-size: 18px;
+/* mirror grid */
+.mirror-grid {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin: 30px 0;
+}
+
+.side {
+  flex: 1 1 45%;
+  min-width: 320px;
+  max-width: 480px;
+  background: rgba(0, 0, 0, 0.4);
+  padding: 15px;
+  border-radius: 8px;
+}
+
+.capital {
+  margin-bottom: 15px;
+}
+
+.capital img {
+  width: 200px;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.capital-name {
   font-weight: bold;
-  color: yellow;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+/* ships */
+.ships {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.row img {
+  width: 80px;
+  height: auto;
+  border-radius: 6px;
+  background: rgba(0, 0, 0, 0.5);
+  padding: 4px;
+  transition: transform 0.2s;
+}
+
+.row img:hover {
+  transform: scale(1.05);
+}
+
+/* confidence */
+.confidence {
+  margin: 20px 0;
+  font-size: 1.1rem;
+}
+
+/* videos */
+.videos {
+  margin: 30px 0;
+}
+
+.video-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 15px;
+  margin-top: 10px;
+}
+
+.video-card {
+  background: rgba(0, 0, 0, 0.6);
+  border-radius: 8px;
+  overflow: hidden;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.2s;
+}
+
+.video-card:hover {
+  transform: scale(1.03);
+}
+
+.video-card img {
+  width: 100%;
+  height: auto;
+}
+
+.video-meta {
+  padding: 8px;
+}
+
+.video-title {
+  font-size: 0.9rem;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.video-channel {
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+/* muted / loading state */
+.muted {
+  color: #aaa;
+  font-style: italic;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+/* simple spinner */
+.muted::before {
+  content: "";
+  width: 14px;
+  height: 14px;
+  border: 2px solid #aaa;
+  border-top: 2px solid transparent;
+  border-radius: 50%;
+  display: inline-block;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
 }

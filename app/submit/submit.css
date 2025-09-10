@@ -1,0 +1,70 @@
+.submit-page {
+  text-align: center;
+  background: url("/assets/backgrounds/fleets-bg.webp") no-repeat center center fixed;
+  background-size: cover;
+  min-height: 100vh;
+  color: white;
+  position: relative;
+}
+.submit-page::before { content: ""; position: absolute; inset: 0; background: rgba(0,0,0,0.5); z-index: 0; }
+.submit-page > * { position: relative; z-index: 1; }
+
+.page-title { padding-top: 30px; font-size: 28px; font-weight: 700; margin-bottom: 6px; }
+.muted { opacity: .8; }
+.optional { font-weight: 400; opacity: .8; }
+
+/* Form card */
+.submit-form {
+  max-width: 600px;
+  margin: 16px auto 28px;
+  display: grid;
+  gap: 16px;
+  text-align: left;
+  background: rgba(0,0,0,0.6);
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(255,255,255,0.18);
+}
+
+.submit-form label {
+  display: grid;
+  gap: 6px;
+  font-weight: 600;
+}
+
+.submit-form input[type="text"],
+.submit-form input[type="url"],
+.submit-form textarea {
+  padding: 10px 12px;
+  border-radius: 6px;
+  border: 1px solid rgba(255,255,255,0.2);
+  background: rgba(0,0,0,0.45);
+  color: #fff;
+  outline: none;
+}
+
+fieldset {
+  border: 1px solid rgba(255,255,255,0.3);
+  padding: 12px;
+  border-radius: 8px;
+}
+legend { font-weight: 700; padding: 0 6px; }
+
+.radio-row { display: flex; flex-wrap: wrap; gap: 8px; }
+.radio-pill {
+  display: inline-flex; align-items: center; gap: 8px;
+  background: rgba(255,255,255,0.12); border: 1px solid rgba(255,255,255,0.18);
+  color: #fff; border-radius: 999px; padding: 6px 10px;
+}
+.check-row { display: grid; grid-template-columns: 18px 1fr; gap: 8px; align-items: center; }
+
+.honeypot { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+
+/* Errors + button */
+.error { background: rgba(255,0,0,.15); border: 1px solid rgba(255,0,0,.45); padding: 8px 10px; border-radius: 6px; }
+
+button[type="submit"] {
+  padding: 12px; border: none; border-radius: 6px;
+  background: #2d89ef; color: #fff; cursor: pointer; font-weight: 800;
+}
+button[type="submit"]:hover { background: #1b5bbf; }

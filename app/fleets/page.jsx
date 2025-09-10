@@ -1,3 +1,5 @@
+"use client";
+
 import Link from "next/link";
 import fleets from "../../data/fleets.json";
 import "./fleets.css";
@@ -5,18 +7,16 @@ import "./fleets.css";
 export default function FleetsPage() {
   return (
     <div className="fleets-page">
-      <h1>Capital Fleets</h1>
+      <div className="nav-buttons">
+        <Link href="/" className="nav-btn">Home</Link>
+      </div>
+      <h1 className="page-title">Capital Fleets</h1>
       <div className="fleets-grid">
         {fleets.map((fleet) => (
-          <div key={fleet.id} className="fleet-card">
-            <img
-              src={`/assets/ships/${fleet.image}`}
-              alt={fleet.name}
-              title={fleet.name}
-            />
-            <h2>{fleet.name}</h2>
-            <Link href={`/fleets/${fleet.id}`}>View Counters</Link>
-          </div>
+          <Link key={fleet.id} href={`/fleets/${fleet.id}`} className="fleet-card">
+            <img src={`/${fleet.image}`} alt={fleet.name} />
+            <p>{fleet.name}</p>
+          </Link>
         ))}
       </div>
     </div>

@@ -1,0 +1,271 @@
+{
+  "negotiator": [
+    {
+      "id": "malevolence",
+      "name": "Malevolence",
+      "image": "assets/ships/malevolence.webp",
+      "confidence": "9/10",
+      "ships": [
+        "assets/ships/vulturedroid.webp",
+        "assets/ships/hyenabomber.webp",
+        "assets/ships/geonosisfightersoldier.webp",
+        "assets/ships/geonosisfighterspy.webp",
+        "assets/ships/geonosisfightersunfac.webp",
+        "assets/ships/scimitar.webp",
+        "assets/ships/tiebomber.webp"
+      ]
+    },
+    {
+      "id": "executor",
+      "name": "Executor",
+      "image": "assets/ships/executor.webp",
+      "confidence": "6/10",
+      "ships": [
+        "assets/ships/slave1.webp",
+        "assets/ships/mark5interceptor.webp",
+        "assets/ships/tiesilencer.webp",
+        "assets/ships/xanadublood.webp",
+        "assets/ships/gauntlet.webp",
+        "assets/ships/tiedefender.webp",
+        "assets/ships/tiedagger.webp"
+      ]
+    }
+  ],
+
+  "malevolence": [
+    {
+      "id": "negotiator",
+      "name": "Negotiator",
+      "image": "assets/ships/negotiator.webp",
+      "confidence": "9/10",
+      "ships": [
+        "assets/ships/anakinjedifighter.webp",
+        "assets/ships/ahsokajedifighter.webp",
+        "assets/ships/rexarc170.webp",
+        "assets/ships/plokoonjedifighter.webp",
+        "assets/ships/btlbywing.webp",
+        "assets/ships/consularstarfighter.webp",
+        "assets/ships/clonesergentarc170.webp"
+      ]
+    },
+    {
+      "id": "executor",
+      "name": "Executor",
+      "image": "assets/ships/executor.webp",
+      "confidence": "7/10",
+      "ships": [
+        "assets/ships/slave1.webp",
+        "assets/ships/mark5interceptor.webp",
+        "assets/ships/tiesilencer.webp",
+        "assets/ships/xanadublood.webp",
+        "assets/ships/gauntlet.webp",
+        "assets/ships/tiedefender.webp",
+        "assets/ships/tiedagger.webp"
+      ]
+    }
+  ],
+
+  "executor": [
+    {
+      "id": "profundity",
+      "name": "Profundity",
+      "image": "assets/ships/profundity.webp",
+      "confidence": "8/10",
+      "ships": [
+        "assets/ships/outrider.webp",
+        "assets/ships/ghost.webp",
+        "assets/ships/phantom2.webp",
+        "assets/ships/cassianuwing.webp",
+        "assets/ships/bistanuwing.webp",
+        "assets/ships/hanmfalcon.webp",
+        "assets/ships/ravenclaw.webp"
+      ]
+    },
+    {
+      "id": "finalizer",
+      "name": "Finalizer",
+      "image": "assets/ships/finalizer.webp",
+      "confidence": "6/10",
+      "ships": [
+        "assets/ships/firstordersftie.webp",
+        "assets/ships/firstordertiefighter.webp",
+        "assets/ships/tiesilencer.webp",
+        "assets/ships/tiebomber.webp",
+        "assets/ships/tiereaper.webp",
+        "assets/ships/slave1.webp",
+        "assets/ships/gauntlet.webp"
+      ]
+    }
+  ],
+
+  "profundity": [
+    {
+      "id": "executor",
+      "name": "Executor",
+      "image": "assets/ships/executor.webp",
+      "confidence": "7/10",
+      "ships": [
+        "assets/ships/slave1.webp",
+        "assets/ships/mark5interceptor.webp",
+        "assets/ships/tiesilencer.webp",
+        "assets/ships/xanadublood.webp",
+        "assets/ships/gauntlet.webp",
+        "assets/ships/tiedefender.webp",
+        "assets/ships/tiedagger.webp"
+      ]
+    },
+    {
+      "id": "leviathan",
+      "name": "Leviathan",
+      "image": "assets/ships/leviathan.webp",
+      "confidence": "5/10",
+      "ships": [
+        "assets/ships/sithinfiltrator.webp",
+        "assets/ships/sithsupremacyclass.webp",
+        "assets/ships/furyclassinterceptor.webp",
+        "assets/ships/scimitar.webp",
+        "assets/ships/tieadvanced.webp",
+        "assets/ships/tiebomber.webp",
+        "assets/ships/tiereaper.webp"
+      ]
+    }
+  ],
+
+  "leviathan": [
+    {
+      "id": "executor",
+      "name": "Executor",
+      "image": "assets/ships/executor.webp",
+      "confidence": "6/10",
+      "ships": [
+        "assets/ships/slave1.webp",
+        "assets/ships/mark5interceptor.webp",
+        "assets/ships/tiesilencer.webp",
+        "assets/ships/xanadublood.webp",
+        "assets/ships/gauntlet.webp",
+        "assets/ships/tiedefender.webp",
+        "assets/ships/tiedagger.webp"
+      ]
+    },
+    {
+      "id": "profundity",
+      "name": "Profundity",
+      "image": "assets/ships/profundity.webp",
+      "confidence": "5/10",
+      "ships": [
+        "assets/ships/outrider.webp",
+        "assets/ships/ghost.webp",
+        "assets/ships/phantom2.webp",
+        "assets/ships/cassianuwing.webp",
+        "assets/ships/bistanuwing.webp",
+        "assets/ships/hanmfalcon.webp",
+        "assets/ships/ravenclaw.webp"
+      ]
+    }
+  ],
+
+  "homeone": [
+    {
+      "id": "chimera",
+      "name": "Chimaera",
+      "image": "assets/ships/chimaera.webp",
+      "confidence": "7/10",
+      "ships": [
+        "assets/ships/imperialtiefighter.webp",
+        "assets/ships/tiebomber.webp",
+        "assets/ships/tiereaper.webp",
+        "assets/ships/gauntlet.webp",
+        "assets/ships/slave1.webp",
+        "assets/ships/phantom2.webp",
+        "assets/ships/ghost.webp"
+      ]
+    }
+  ],
+
+  "finalizer": [
+    {
+      "id": "raddus",
+      "name": "Raddus",
+      "image": "assets/ships/raddus.webp",
+      "confidence": "6/10",
+      "ships": [
+        "assets/ships/outrider.webp",
+        "assets/ships/bistanuwing.webp",
+        "assets/ships/phantom2.webp",
+        "assets/ships/ghost.webp",
+        "assets/ships/cassianuwing.webp",
+        "assets/ships/hanmfalcon.webp",
+        "assets/ships/ravenclaw.webp"
+      ]
+    },
+    {
+      "id": "executor",
+      "name": "Executor",
+      "image": "assets/ships/executor.webp",
+      "confidence": "5/10",
+      "ships": [
+        "assets/ships/slave1.webp",
+        "assets/ships/mark5interceptor.webp",
+        "assets/ships/tiesilencer.webp",
+        "assets/ships/xanadublood.webp",
+        "assets/ships/gauntlet.webp",
+        "assets/ships/tiedefender.webp",
+        "assets/ships/tiedagger.webp"
+      ]
+    }
+  ],
+
+  "raddus": [
+    {
+      "id": "finalizer",
+      "name": "Finalizer",
+      "image": "assets/ships/finalizer.webp",
+      "confidence": "6/10",
+      "ships": [
+        "assets/ships/firstordersftie.webp",
+        "assets/ships/firstordertiefighter.webp",
+        "assets/ships/tiesilencer.webp",
+        "assets/ships/tiebomber.webp",
+        "assets/ships/tiereaper.webp",
+        "assets/ships/slave1.webp",
+        "assets/ships/gauntlet.webp"
+      ]
+    }
+  ],
+
+  "endurance": [
+    {
+      "id": "chimera",
+      "name": "Chimaera",
+      "image": "assets/ships/chimaera.webp",
+      "confidence": "5/10",
+      "ships": [
+        "assets/ships/imperialtiefighter.webp",
+        "assets/ships/tiebomber.webp",
+        "assets/ships/tiereaper.webp",
+        "assets/ships/gauntlet.webp",
+        "assets/ships/slave1.webp",
+        "assets/ships/phantom2.webp",
+        "assets/ships/ghost.webp"
+      ]
+    }
+  ],
+
+  "executrix": [
+    {
+      "id": "endurance",
+      "name": "Endurance",
+      "image": "assets/ships/venator.webp",
+      "confidence": "4/10",
+      "ships": [
+        "assets/ships/anakinjedifighter.webp",
+        "assets/ships/ahsokajedifighter.webp",
+        "assets/ships/rexarc170.webp",
+        "assets/ships/plokoonjedifighter.webp",
+        "assets/ships/btlbywing.webp",
+        "assets/ships/consularstarfighter.webp",
+        "assets/ships/clonesergentarc170.webp"
+      ]
+    }
+  ]
+}

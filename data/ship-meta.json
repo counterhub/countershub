@@ -1,0 +1,142 @@
+[
+  {
+    "key": "bistanuwing.webp",
+    "name": "Bistan's U-wing",
+    "factions": ["Rebels"],
+    "alignment": "Light",
+    "roles": ["Support"]
+  },
+  {
+    "key": "cassianuwing.webp",
+    "name": "Cassian's U-wing",
+    "factions": ["Rebels"],
+    "alignment": "Light",
+    "roles": ["Support"]
+  },
+  {
+    "key": "hanmfalcon.webp",
+    "name": "Millennium Falcon (Han)",
+    "factions": ["Rebels", "Scoundrels"],
+    "alignment": "Light",
+    "roles": ["Attacker"]
+  },
+  {
+    "key": "reymfalcon.webp",
+    "name": "Millennium Falcon (Rey)",
+    "factions": ["Resistance"],
+    "alignment": "Light",
+    "roles": ["Attacker"]
+  },
+  {
+    "key": "poexwing.webp",
+    "name": "Poe Dameron's X-wing",
+    "factions": ["Resistance"],
+    "alignment": "Light",
+    "roles": ["Attacker"]
+  },
+  {
+    "key": "imperialtiefighter.webp",
+    "name": "TIE Fighter",
+    "factions": ["Empire"],
+    "alignment": "Dark",
+    "roles": ["Attacker"]
+  },
+  {
+    "key": "tiebomber.webp",
+    "name": "TIE Bomber",
+    "factions": ["Empire"],
+    "alignment": "Dark",
+    "roles": ["Tank"]
+  },
+  {
+    "key": "tiereaper.webp",
+    "name": "TIE Reaper",
+    "factions": ["Empire"],
+    "alignment": "Dark",
+    "roles": ["Support"]
+  },
+  {
+    "key": "tiedefender.webp",
+    "name": "TIE Defender",
+    "factions": ["Empire"],
+    "alignment": "Dark",
+    "roles": ["Attacker"]
+  },
+  {
+    "key": "tiesilencer.webp",
+    "name": "TIE Silencer",
+    "factions": ["First Order"],
+    "alignment": "Dark",
+    "roles": ["Attacker"]
+  },
+  {
+    "key": "tiedagger.webp",
+    "name": "TIE Dagger",
+    "factions": ["First Order"],
+    "alignment": "Dark",
+    "roles": ["Attacker"]
+  },
+  {
+    "key": "vulture_droid.webp",
+    "name": "Vulture Droid",
+    "factions": ["Separatists", "Droids"],
+    "alignment": "Dark",
+    "roles": ["Attacker"]
+  },
+  {
+    "key": "hyena_bomber.webp",
+    "name": "Hyena Bomber",
+    "factions": ["Separatists", "Droids"],
+    "alignment": "Dark",
+    "roles": ["Tank"]
+  },
+  {
+    "key": "ghost.webp",
+    "name": "Ghost",
+    "factions": ["Rebels", "Phoenix"],
+    "alignment": "Light",
+    "roles": ["Support"]
+  },
+  {
+    "key": "phantom2.webp",
+    "name": "Phantom II",
+    "factions": ["Rebels", "Phoenix"],
+    "alignment": "Light",
+    "roles": ["Support"]
+  },
+  {
+    "key": "executor.webp",
+    "name": "Executor",
+    "factions": ["Empire"],
+    "alignment": "Dark",
+    "roles": ["Capital Ship"]
+  },
+  {
+    "key": "profundity.webp",
+    "name": "Profundity",
+    "factions": ["Rebels"],
+    "alignment": "Light",
+    "roles": ["Capital Ship"]
+  },
+  {
+    "key": "negotiator.webp",
+    "name": "Negotiator",
+    "factions": ["Galactic Republic"],
+    "alignment": "Light",
+    "roles": ["Capital Ship"]
+  },
+  {
+    "key": "malevolence.webp",
+    "name": "Malevolence",
+    "factions": ["Separatists"],
+    "alignment": "Dark",
+    "roles": ["Capital Ship"]
+  },
+  {
+    "key": "leviathan.webp",
+    "name": "Leviathan",
+    "factions": ["Sith Empire"],
+    "alignment": "Dark",
+    "roles": ["Capital Ship"]
+  }
+]
